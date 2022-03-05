@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data_name">
+        <item>"Anya Melfissa"</item>
+        <item>"Airani Iofifteen"</item>
+        <item>"Moona Hoshinova"</item>
+        <item>"Kureiji Ollie"</item>
+        <item>"Pavollia Reine"</item>
+        <item>"Ayunda Risu"</item>
+        <item>"Amelia Watson"</item>
+        <item>"Gawr Gura"</item>
+        <item>"Ninomae Ina'nis"</item>
+        <item>"Takanashi Kiara"</item>
+        <item>"Calliope Mori"</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>"The Living Weapon"</item>
+        <item>"The Extra Terrestrial"</item>
+        <item>"The Moon Deity"</item>
+        <item>"The Living Dead"</item>
+        <item>"The Noble Visitor"</item>
+        <item>"The Rodent Witch"</item>
+        <item>"The Timekeeper"</item>
+        <item>"The Last Atlantian"</item>
+        <item>"The Priestess of the Ancient Ones"</item>
+        <item>"The Legendary Phoenix"</item>
+        <item>"The Death Incarnate"</item>
+    </string-array>
+    <string-array name="data_details">
+        <item>
+            "A mythical ritual of an ancient Keris gave rise to this living weapon. Although given a body of a human, she still inherits her usual weapon characteristics. Namely sleeping for hundreds of years, drinking the blood of her enemies, and sleeping while standing. She was discovered by Cover Foundation during one of their raids on an abandoned temple at [REDACTED], West Java."</item>
+        <item>
+            "A high ranking member of [REDACTED], she works at Hololive Production as a means of cooperation and alliance between Cover Foundation and her people. She also creates a strong connection with the Deity Tokino Sora as a means to protect the [DATA EXPUNGED] that can lead to an ZK-Class Reality Structuring Scenario"</item>
+        <item>
+            "One of the Board Director of Usada Research Facility and Usada Pekora's Right Hand Woman. She also works as one of the Head Researcher of Site-98 in Indonesia after her acquisition of Prometheus Labs. After incident-4778D67, Moona lost her place as a deity and now works for Usada Pekora and the Cover Foundation."</item>
+        <item>
+            "An amalgamation of every souls that has ever been trapped within the Legendary Sword of Crimson Edge. Kureiji Ollie is a by product of the Cover Foundation attempt at redefining what it truly means to be 'alive'. She retains the memory and a fraction of personality from the last of victim of the sword, Olivia."</item>
+        <item>
+            "A peafowl lady from another world. She is a bright-minded scholar who works as a liaison between Cover Foundation and her world after an accidental Reality Breach between her world and theirs. She became one of the trusted researcher agent before becoming a"</item>
+        <item>
+            "A fae found in West Java. She was accidentally given the name Ayunda by a nameless Thaumatogist (also known as shaman in the area). Following Eshu-Class Protocol, the rest of her background are classified. She now works at Hololive Production"</item>
+        <item>
+            "A former SCP-Foundation Agent. Apparently she went rogue from the SCP-Foundation just before she was given a mission to [DATA EXPUNGED]. After going rogue, she created a private Detective Agency before being invited into Cover Foundation years after the destruction of the SCP-Foundation to aid in Project End Credits."</item>
+        <item>
+            "The legendary siren and the last atlantean. She is a powerful deity whose voice contains powerful memetic properties capable of lulling anyone hearing it. She is also the companion of the Bloop Leviathan, named after the 'Bloop' signal that was discovered during [REDACTED]. She was acquired by Agent Watson during her expedition in Florida"</item>
+        <item>
+            "The priestess of the ancient ones and [DATA EXPUNGED]. She came to Site-19 herself after getting an invitation from Agent Watson. The invitation itself was dated to be from 1890 and was scheduled to be sent to her at exactly [REDACTED] years later during her birthday."</item>
+        <item>
+            "An immortal phoenix from another world. She was reincarnated to this world as part of her life-cycle. Her ashes was found near a chicken pen owned by Colonel Sanders and she's been secretly living as a normal human girl ever since. During World War, she and Colonel Sanders created the massive fast-food chain known as "Kiara Fried Phoenix"."</item>
+        <item>
+            "To Prevent the Omega-Class, End of Death scenario, Cover Foundation convinced the King of Hell to appoint an heir to the current Grim Reaper. A young spirit named Calliope Mori. She then became the Grim Reaper's Direct apprentice and the Main Liaison between Cover Foundation and the Underworld"</item>
+    </string-array>
+    <integer-array name="data_image">
+        <item>@drawable/id_anya</item>
+        <item>@drawable/id_iofi</item>
+        <item>@drawable/id_moona</item>
+        <item>@drawable/id_ollie</item>
+        <item>@drawable/id_reine</item>
+        <item>@drawable/id_risu</item>
+        <item>@drawable/myth_ame</item>
+        <item>@drawable/myth_gura</item>
+        <item>@drawable/myth_ina</item>
+        <item>@drawable/myth_kiara</item>
+        <item>@drawable/myth_mori</item>
+    </integer-array>
+</resources>

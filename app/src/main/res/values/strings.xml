@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Holo Foundation</string>
+    <string name="idol_description">Bio: </string>
+    <string name="idol_name">Name: </string>
+</resources>
