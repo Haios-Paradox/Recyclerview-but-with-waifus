@@ -4,7 +4,6 @@ import android.content.Intent
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -31,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             val dataDetails = resources.getStringArray(R.array.data_details)
             val dataImage = resources.obtainTypedArray(R.array.data_image)
             val listIdols = ArrayList<Idols>()
+
             for (i in dataName.indices) {
                 val idol = Idols(dataName[i], dataDescription[i], dataImage.getResourceId(i, -1),dataDetails[i])
                 listIdols.add(idol)
@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             rvidols.layoutManager = LinearLayoutManager(this)
         }
+
         val listIdolAdapter = ListIdolAdapter(list)
         rvidols.adapter = listIdolAdapter
 
@@ -52,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-    private fun showSelectedIdol(idol: Idols) {
+    private fun showSelectedIdol(idol : Idols) {
         val intent = Intent(this,DetailActivity::class.java)
         intent.putExtra(DetailActivity.EXTRA_IDOL,idol)
         startActivity(intent)

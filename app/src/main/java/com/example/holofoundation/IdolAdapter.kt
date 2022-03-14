@@ -1,12 +1,10 @@
 package com.example.holofoundation
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
@@ -24,7 +22,7 @@ class ListIdolAdapter (private val listIdol: ArrayList<Idols>) : RecyclerView.Ad
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, bio, image, details) = listIdol[position]
+        val (name, bio, image) = listIdol[position]
 
         Glide.with(holder.itemView.context)
             .load(image)
